@@ -7,7 +7,7 @@ import HeroImg from '@/public/hero.png'
 const Hero = () => {
   return (
             <>
-            <section className="h-[70vh] lg:h-[88nh] md:h-[80vh] sm:h-[75vh] flex items-center flex-col justify-center">
+            <section className="h-[70vh] lg:h-[88nh] md:h-[80vh] sm:h-[75vh] flex items-center flex-col justify-center mt-[28px]">
                 <div className="grid grid-cols-1 lg:grid-cols-5 items-center w-[80%] mx-auto">
                     <div className="col-span-2">
                         <h1 className="text-[27px] md:text-[35px] lg:text-[40px] mb-[1rem] text-slate-700 font-bold">Bridging the digital divide in South Africa.</h1>
