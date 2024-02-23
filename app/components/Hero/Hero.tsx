@@ -7,7 +7,7 @@ import HeroImg from '@/public/hero.jpg'
 const Hero = () => {
   return (
             <>
-            <section className="h-[70vh] lg:h-[88nh] md:h-[80vh] sm:h-[75vh] flex items-center flex-col  justify-center mt-[76px] sm:mt-[16px] lg:mt-[28px]">
+            <section className="h-[70vh] lg:h-[88vh] md:h-[80vh] sm:h-[75vh] flex items-center flex-col  justify-center mt-[130px] sm:mt-[16px] lg:mt-[28px]">
                 <div className="grid grid-cols-1 lg:grid-cols-5 items-center w-[80%] mx-auto">
                     <div className="col-span-2">
                         <h1 className="text-[27px] md:text-[35px] lg:text-[40px] mb-[1rem] text-slate-700 font-bold">Bridging the digital divide in South Africa.</h1>
@@ -17,7 +17,7 @@ const Hero = () => {
                             <ButtonRed text='Request A Laptop' />
                         </div>
                     </div>
-                    <div className='col-span-3 hidden sm:block md:mt-[20px] h-[100%] mt-5 ml-3'>
+                    <div className='col-span-3 sm:block md:mt-[20px] h-[100%] mt-5 ml-3'>
                         <Image
                         src={HeroImg}
                         alt='camp'
