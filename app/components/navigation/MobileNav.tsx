@@ -23,7 +23,7 @@ const MobileNav = ({nav, closeNav}: Props) => {
                 <Link href={'/'}>Donate</Link>
             </li>
             <li className="cursor-point text-white text-[22px] hover:underline hover:text transition-all duration-200">
-                <Link href={'/'}>Contact Us</Link>
+                <Link href={'/contact'}>Contact Us</Link>
             </li>
         </ul>
     </div>
