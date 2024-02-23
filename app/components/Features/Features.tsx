@@ -7,7 +7,7 @@ import ButtonBlue from '../button/ButtonBlue';
 const Features = () => {
   return (
     <>
-      <section className='sm:mt-[16px] lg:mt-[28px] max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-[12px]'>
+      <section className='sm:mt-[16px] lg:mt-[28px] max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-[68px]'>
         <div className='my-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 flex gap-3 lg:flex-justify lg:flex flex-col lg:flex-row'>
           <div className='sm:text-center lg:text-left'>
             <h1 className='text-4xl tracking-tight font-extrabold text-gray-800 sm:text-5xl md:text-6xl '>
@@ -40,7 +40,7 @@ const Features = () => {
 
           <div className='lg:inset-y-0 lg:right-0 lg:w-1/2 my-4'>
             <Image
-              className='h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full rounded-md'
+              className='h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full rounded-md '
               src={SectionImg}
               alt='section'
             />
