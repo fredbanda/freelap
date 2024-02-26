@@ -1,6 +1,8 @@
 import React from 'react'
-import star from '@ionic/react'
-import { StarIcon } from '@radix-ui/react-icons'
+import Image from 'next/image'
+import StudentThree from '@/public/student3.jpg'
+import StudentTwo from '@/public/student6.jpg'
+import StudentOne from '@/public/student1.jpg'
 
 const reviews = () => {
   return (
@@ -20,8 +22,9 @@ const reviews = () => {
   {/* Testimonial 1 */}
   <div className="mb-12 md:mb-0">
     <div className="mb-6 flex justify-center">
-      <img
-        src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg"
+      <Image
+        src={StudentThree}
+        alt='student1'
         className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
     </div>
     <h5 className="mb-4 text-xl font-semibold">Andile Ncithama</h5>
@@ -106,8 +109,9 @@ const reviews = () => {
   {/*<!-- Second Testimonial -->*/}
   <div className="mb-12 md:mb-0">
     <div className="mb-6 flex justify-center">
-      <img
-        src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg"
+      <Image
+        src={StudentTwo}
+        alt='student2'
         className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
     </div>
     <h5 className="mb-4 text-xl font-semibold">Leroto Morapo</h5>
@@ -193,8 +197,9 @@ const reviews = () => {
   <div className="mb-0">
     <div className="mb-12 md:mb-0">
       <div className="mb-6 flex justify-center">
-        <img
-          src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg"
+        <Image
+          src={StudentOne}
+          alt='student1'
           className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
       </div>
       <h5 className="mb-4 text-xl font-semibold">Zamile Jali</h5>
