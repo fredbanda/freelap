@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
             <span className='sr-only'>{isMobileMenuOpen ? 'Close' : 'Open'} main menu</span>
             {isMobileMenuOpen ? (
               <svg
-                className='w-6 h-6'
+                className='w-6 h-6 text-white'
                 fill='none'
                 stroke='currentColor'
                 viewBox='0 0 24 24'
@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
               </svg>
             ) : (
               <svg
-                className='w-6 h-6 lg:hidden'
+                className='w-6 h-6 lg:hidden text-white'
                 fill='currentColor'
                 viewBox='0 0 20 20'
                 xmlns='http://www.w3.org/2000/svg'
