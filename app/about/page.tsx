@@ -10,7 +10,7 @@ const AboutUs = () => {
         <div className="lg:max-w-lg">
           <h2 className="text-base font-semibold leading-7 text-indigo-600">About Us</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Charity Organization</p>
-          <p className="mt-6 text-lg leading-8 text-gray-600">We&apos;ve built a community of like-minded individuals who are passionate about helping people.
+          <p className="mt-6 text-lg leading-8 text-gray-600"> We&apos;ve built a community of like-minded individuals who are passionate about helping people.
           </p>
           <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
             <div className="relative pl-9">
@@ -27,7 +27,7 @@ const AboutUs = () => {
                   </path>
                 </svg>Technology for  all
               </dt>
-              <dd className="inline">We believe today&apos;s education systems need better technology but only a handful of African students got the access. This made our director to start the organization.
+              <dd className="inline"> We believe today&apos;s education systems need better technology but only a handful of African students got the access. This made our director to start the organization.
               </dd>
             </div>
             <div className="relative pl-9">
@@ -55,7 +55,7 @@ const AboutUs = () => {
                   </path>
                 </svg>Anonymous Givers </dt>
               <dd className="inline">
-                Most of our givers believe that you do not need a news conference when you help someone so they always want to remain anonymous. We will control helping kids with laptops and if you want to donate your used laptop please just reach out.
+                Most of our givers believe that you do not need a news conference when you help someone so they always want to remain anonymous. We will continue helping kids with laptops and if you want to donate your used laptop please just reach out.
               </dd>
             </div>
           </dl>
