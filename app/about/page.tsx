@@ -40,7 +40,7 @@ const AboutUs = () => {
                 </svg>
                 It Takes a village
               </dt>
-              <dd className="inline">
+              <dd className="inline"> 
                 From the beginning of time Africans have always believed that it takes the whole village to raise a child. Ubuntu which practiced in the entire of Africa believes in giving back to the community.
                 .</dd>
             </div>
