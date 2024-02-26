@@ -1,10 +1,16 @@
+"use client"
 import React, { useState } from 'react';
 
-const Navbar: React.FC = () => {
+interface NavbarProps {
+  openNav: () => void;
+}
+
+const Navbar: React.FC<NavbarProps> = ({openNav}) => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
+    openNav();
   };
 
   return (
