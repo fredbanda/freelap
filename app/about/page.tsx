@@ -10,7 +10,7 @@ const AboutUs = () => {
         <div className="lg:max-w-lg">
           <h2 className="text-base font-semibold leading-7 text-indigo-600">Produce faster</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">An Enterprise API</p>
-          <p className="mt-6 text-lg leading-8 text-gray-600">We've built an API that allows you to scale your podcast
+          <p className="mt-6 text-lg leading-8 text-gray-600">We&apos;ve built an API that allows you to scale your podcast
             production workflow.
           </p>
           <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
